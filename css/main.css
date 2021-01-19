@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* HEADER tips */
+.containertop {
+  margin-left: 10%;
+  margin-right: 15%;
+  margin-top: 5%;
+  border-top: 3px solid #F5F5F5;
+}
+.logo {
+  width: auto;
+  height: auto;
+  padding-left: 3%;
+  padding-top: 2%;
+  padding-right: 2%;
+}
+
+.logo-text {
+  font-size: 40px;
+  font-weight: bold;
+
+
+}
+
+/* MAIN tips */
+
+.containerdown {
+  background-color: #F5F5F5;
+  height: auto;
+  width: auto;
+  padding-top:0.5%;
+  margin-left: 10%;
+  margin-right: 15%;
+  padding-bottom: 0.2%;
+
+
+}
+
+.menutop {
+  background-color: white;
+  margin-left: 10%;
+  margin-right: 15%;
+  margin-top: 5%;
+  padding-left: 5%;
+  padding-top: 2%;
+  padding-bottom: 1%;
+}
+
+.menudown {
+  background-color: white;
+  margin-left: 10%;
+  margin-right: 15%;
+  margin-top: 0.2%;
+  margin-bottom: 3%;
+  padding-left: 5%;
+  padding-top: 2%;
+}
+
+.menunewtask, .menutoday, .menuupcoming  {
+
+  padding-bottom: 3%;
+
+}
+
+/* GESTIONE */
+
+p {
+  display: inline;
+  font-size: 25px;
+
+}
+
+p, h1 {
+  padding-left: 10px;
+  line-height: 50px;
+}
+
+
+/* GESTIONE DEI PULSANTI */
+
+.pulsante1 {
+outline: none;
+cursor: pointer;
+text-align: center;
+text-decoration: none;
+font: bold 12px Arial, Helvetica, sans-serif;
+color: #fff;
+padding: 10px 20px;
+border: solid 1px #0076a3;
+background: #0095cd;
+border-radius: 8px;
+}
+
+.pulsante2 {
+outline: none;
+cursor:e-resize;
+text-align: center;
+text-decoration: none;
+font: bold 12px Arial, Helvetica, sans-serif;
+color: grey;
+padding: 10px 20px;
+border: solid 1px grey;
+
+border-radius: 8px;
+}
+
+.pulsanteviola {
+outline: none;
+cursor: pointer;
+text-align: center;
+text-decoration: none;
+font: bold 12px Arial, Helvetica, sans-serif;
+color: #fff;
+padding: 10px 20px;
+border: solid 1px #0076a3;
+background: blueviolet;
+border-radius: 8px;
+}
+
+.pulsanterosa {
+outline: none;
+cursor: pointer;
+text-align: center;
+text-decoration: none;
+font: bold 12px Arial, Helvetica, sans-serif;
+color: #fff;
+padding: 10px 20px;
+border: solid 1px #0076a3;
+background: #FF69B4;
+border-radius: 8px;
+}
+
+.pulsantearancio {
+outline: none;
+cursor: pointer;
+text-align: center;
+text-decoration: none;
+font: bold 12px Arial, Helvetica, sans-serif;
+color: #fff;
+padding: 10px 20px;
+border: solid 1px #0076a3;
+background: orange;
+border-radius: 8px;
+}
+
+.pulsanteverde {
+outline: none;
+cursor: pointer;
+text-align: center;
+text-decoration: none;
+font: bold 12px Arial, Helvetica, sans-serif;
+color: #fff;
+padding: 10px 20px;
+border: solid 1px #0076a3;
+background: lightseagreen;
+border-radius: 8px;
+}
+
+.pulsanteverdechiaro {
+outline: none;
+cursor: pointer;
+text-align: center;
+text-decoration: none;
+font: bold 12px Arial, Helvetica, sans-serif;
+color: #fff;
+padding: 10px 20px;
+border: solid 1px #0076a3;
+background: #9ACD32;
+border-radius: 8px;
+}

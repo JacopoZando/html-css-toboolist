@@ -66,18 +66,25 @@
 
 }
 
-/* GESTIONE */
+/* GESTIONE TAG*/
 
 p {
-  display: inline;
   font-size: 25px;
-
 }
 
 p, h1 {
-  padding-left: 10px;
+
   line-height: 50px;
 }
+ul {
+  font-size: 25px;
+  list-style-type: none;
+}
+
+li {
+  padding-top: 5px;
+}
+
 
 
 /* GESTIONE DEI PULSANTI */
@@ -107,22 +114,39 @@ border: solid 1px grey;
 border-radius: 8px;
 }
 
-.viola {
-background: blueviolet;
+/* GESTIONE DELLE ETICHETTE */
+
+span.w3-tag {
+  background-color: #0095cd;
+  text-align: center;
+  text-decoration: none;
+  font: bold 12px Arial, Helvetica, sans-serif;
+  color: white;
+  padding: 10px 20px;
+  border: solid 1px grey;
+  border-radius: 8px;
+
 }
 
-rosa {
-background: #FF69B4;
+span.rosa {
+background-color: violet;
 }
 
-.arancio {
-background: orange;
+span.azzurro {
+background-color: #6495ed;
+}
+span.arancio {
+background-color: orange;
 }
 
-.verde {
-background: lightseagreen;
+span.viola {
+  background-color: blueviolet;
 }
 
-.verdechiaro {
-background: #9ACD32;
+span.verde {
+background-color: lightseagreen;
+}
+
+span.verdechiaro {
+background-color: #9ACD32;
 }
